@@ -1,0 +1,95 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-image: url('../images/dragonflight.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.feature {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.feature:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.feature img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin: 0 20px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    color: #fff;
+    background-color: #333;
+    height: 60px;
+}
+
+.cta div {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.cta button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.cta button:hover {
+    background-color: #ccc;
+}
